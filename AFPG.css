@@ -1,0 +1,189 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#LogoId img {
+    height: 200px;
+    width: auto;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    position: relative;
+}
+
+.text{
+    color: black;
+    font-size: large;
+    font-weight: 200;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    right: 0;
+    margin-right: 115px;
+    position: absolute;
+    top: 168px;
+    white-space: nowrap;
+}
+
+hr {
+    border: solid black 1px;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#Home, #Buchon, #Contact, #FloralTips, #BallonsDecor{
+    color: black;
+    font-size: large;
+    font-weight: 300;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    padding-bottom: 50px;
+}
+
+#Home {
+    margin-left: 100px;
+}
+
+#Buchon, #Contact, #FloralTips, #BallonsDecor{
+    margin-left: 75px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    left: 65px;
+    top: 30px;
+    background-color: #f1f1f1;
+    min-width: 120px; /* this is for the width of the box from the dropdown */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+    color: black;
+    font-size: large;
+    font-weight: 300;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+
+.Locations{
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Adresses{
+    display: flex;
+}
+
+.Adress1, .Adress2{
+    line-height: 22px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.Adress1{
+    margin-right: 200px;
+    margin-left: -80px;
+}
+
+.Locations h1{
+    color: #AE2C21;
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+#BH, #Time{
+    color: #C12B1D;
+}
+
+@media screen and (max-width: 768px) {
+    .Locations {
+        padding: 15px; /* Adjust padding for smaller screens */
+    }
+
+    .Adresses {
+        flex-direction: column; /* Stack Adress1 and Adress2 vertically */
+    }
+
+    .Adress1 {
+        margin-right: 0; /* Remove right margin for Adress1 on smaller screens */
+        margin-left: 0; /* Remove left margin for Adress1 on smaller screens */
+    }
+}
+
+
+.MBody{
+    display: flex;
+    background-color: #AE2C21;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.Mission{
+    margin: 100px;
+    width: 70%;
+}
+
+#img1 img {
+    max-width: 350px;
+    float: right;
+    margin-left: 90px;
+    margin-bottom: 30px;
+}
+
+.MissionWriting {
+    font-family: Helvetica, sans-serif;
+    color: white;
+    font-size: 22px;
+    line-height: 50px;
+    margin-left: 30px;
+    font-family: 'Nanum Gothic', sans-serif;;
+}
+
+#MissionTitle{
+    font-family: baskerville, serif;
+    font-size: 60px;
+    margin-left: -2px;
+}
+
+.WMBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.WaterMark{
+    margin: 10px auto;
+    width: 70%;
+}
+
+.WaterMarkPhotos img{
+    width: 80px;
+    float: left;
+    display: flex;
+    margin-left: -10px;
+}
+
+.WaterMark p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin-left: 35%;
+    margin-top: 30px;
+}
